@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "name": "projectops-planner",
+  "version": "0.1.0",
+  "author": "Priyanka Amrute",
+  "license": "MIT",
+  "python": ">=3.12",
+  "dependencies": [],
+  "execution": "planning_only",
+  "kernel": {
+    "canonical_source": "src/projectops/planner.py",
+    "path": "scripts/planner_engine.py",
+    "sha256": "4a6d5ea65052d9fe493a4f8e28d99e090a9cd2482ca407d68d69adb82f1827f1"
+  },
+  "files": {
+    "LICENSE": "cc5fb12629ac40e9fcef1ed91dea60fe7aa85831b1d9bd1b530fbc5d3c35d497",
+    "SKILL.md": "3d3f0e2ba45d929423e619981c524ba93cf4a1be5bc95a052c1f5b3b8e8b772c",
+    "examples/planner_input.json": "d15cf107170efe54131d9ac680bd767cb107ff6a6674f1390b2558d9f11a98f1",
+    "references/input-output.md": "1dc68c5126e86951b4c337120028bef64f7c57ea681bcb4b5a93fedb8583b5dc",
+    "scripts/plan.py": "01a49595b68206f2b2aa10e1a4a56f354dcaac29d93cbd15e8ca8bbec7790817",
+    "scripts/planner_engine.py": "4a6d5ea65052d9fe493a4f8e28d99e090a9cd2482ca407d68d69adb82f1827f1"
+  }
+}
